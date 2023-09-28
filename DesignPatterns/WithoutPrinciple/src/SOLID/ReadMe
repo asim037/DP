@@ -1,0 +1,29 @@
+Problem Statement:
+You are going to implement a university management system. The system should be capable of 
+handling admission, timetable, assignment and quizzes. Design a solution for this.
+
+
+SOLID Principle:
+1) OCP:
+When we develop software, we do it in phases. We implement a bunch of functionalities, test it, and 
+then release it to the users. Then we start implementing the next set of functionalities.
+2) Modularity:
+Every module should be a separate sub-system to address the related module independently. For above problem
+we should have at least four modules. i.e. admission, timetable, assignments and quizzes.
+
+WithoutPrinciple(SOLID) Package:
+When we want to implement this system in a single package/module called EvaluateStudents. 
+All separate modules likes of PerformAdmission, GenerateTimetable,  CreateAssignment and ConductQuizzes present in a singleclass.
+
+
+WithPrinciple(SOLID) package:
+SOLID(OCP)principle and modularity in its solution.
+All modules mentioned above are implemented in a different classes.
+Admission Module: This part takes care of enrolling students into the university.
+Timetable Module: This part generates the schedule of classes for students.
+Assignments Module: This part handles the creation of assignments for students to complete.
+Quizzes Module: This part manages the conduction of quizzes or tests.
+
+
+
+

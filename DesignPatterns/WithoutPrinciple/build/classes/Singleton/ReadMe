@@ -1,0 +1,8 @@
+Problem Statement:
+you need a solution to create a single instance of a GameConfig class that stores and 
+provides access to these settings.It requires requires the management of configuration settings such as 
+graphics quality, sound volume, and control scheme. 
+
+https://github.com/asim037/Lab2-SEPrinciples
+
+https://github.com/asim037/Lab2-Singleton
