@@ -10,8 +10,11 @@ package gof.strategy.calculatoroperation;
  * @author FA20-BSE-037
  */
 public class OperationSub extends Computer implements Strategy {
+    public OperationSub(){}
 //    
-    
+    public OperationSub(OperationMul operationmul) {
+        this.nextStrategy = operationmul;
+    }
 
     @Override
     public int doOperation(int num1, int num2) {

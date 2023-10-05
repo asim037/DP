@@ -20,6 +20,12 @@ public class Main {
       context = new Context(new OperationMul());		
       System.out.println("10 * 5 = " + context.executeStrategy(10, 5));
       
+      System.out.println("Computer in Range 44 , 44 = "+context.executeInRange(44, 44));
+      context.executeInRange(44, 144);
+      
+      context.executeInRange(120, 150);
+      context.executeInRange(120, 1250);
+      
        int executeInRange = context.executeInRange(10, 20);
        System.out.println("Print :"+ executeInRange);
       
