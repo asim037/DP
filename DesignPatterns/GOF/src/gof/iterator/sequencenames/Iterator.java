@@ -12,4 +12,7 @@ package gof.iterator.sequencenames;
 public interface Iterator {
    public boolean hasNext();
    public Object next(); 
+   Object previous();
+    void moveToLast();
+    void moveToFirst();
 }

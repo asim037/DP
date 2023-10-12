@@ -54,6 +54,27 @@ public class NameRepository implements Container {
          }
          return null;
       }		
+
+        @Override
+        public Object previous() {
+             if (index < students.length - 1) {
+                return students[++index];
+            }
+          return null;
+            //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+
+        @Override
+        public void moveToLast() {
+            index = students.length - 1;    
+            //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+
+        @Override
+        public void moveToFirst() {
+             index = 0;
+            //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
    }
 }
     
