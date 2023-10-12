@@ -10,6 +10,8 @@ package gof.strategy.calculatoroperation;
  * @author FA20-BSE-037
  */
 public class OperationPow extends Computer{
+    
+    public OperationPow(){};
 
     @Override
     public int doOperation(int num1, int num2) {

@@ -20,6 +20,7 @@ public class Context {
       return strategy.doOperation(num1, num2);
    }
    public int executeInRange(int num1, int num2){
+       Computer chainOfStrategies = new OperationAdd(new OperationSub(new OperationMul(new OperationDiv(new OperationPow()))));
        return strategy.ComputeRange(num1, num2);
    }
 }

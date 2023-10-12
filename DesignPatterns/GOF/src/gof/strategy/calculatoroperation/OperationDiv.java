@@ -10,6 +10,11 @@ package gof.strategy.calculatoroperation;
  * @author FA20-BSE-037
  */
 public class OperationDiv extends Computer{
+    
+    public OperationDiv(){}
+    public OperationDiv(OperationPow operationpow) {
+        this.nextStrategy = operationpow;
+    }
 
     @Override
     public int doOperation(int num1, int num2) {

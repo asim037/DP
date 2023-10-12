@@ -10,6 +10,10 @@ package gof.strategy.calculatoroperation;
  * @author FA20-BSE-037
  */
 public class OperationAdd extends Computer {
+    public OperationAdd(){}
+    public OperationAdd(OperationSub operationSubstract) {
+        this.nextStrategy = operationSubstract;
+    }
    
    
    @Override
