@@ -22,7 +22,7 @@ public class Facebook extends Network {
         for (int i = 0; i < this.password.length(); i++) {
             System.out.print("*");
         }
-        simulateNetworkLatency();
+        NetworkLatency.simulateNetworkLatency();
         System.out.println("\n\nLogIn success on Facebook");
         return true;
     }
@@ -41,18 +41,18 @@ public class Facebook extends Network {
         System.out.println("User: '" + userName + "' was logged out from Facebook");
     }
 
-    private void simulateNetworkLatency() {
-        try {
-            int i = 0;
-            System.out.println();
-            while (i < 10) {
-                System.out.print(".");
-                Thread.sleep(500);
-                i++;
-            }
-        } catch (InterruptedException ex) {
-            ex.printStackTrace();
-        }
-    }
+//    private void simulateNetworkLatency() {
+//        try {
+//            int i = 0;
+//            System.out.println();
+//            while (i < 10) {
+//                System.out.print(".");
+//                Thread.sleep(500);
+//                i++;
+//            }
+//        } catch (InterruptedException ex) {
+//            ex.printStackTrace();
+//        }
+//    }
 }
     
