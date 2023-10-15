@@ -9,13 +9,13 @@ package gof.template.network;
  *
  * @author FA20-BSE-037
  */
+
 public abstract class Network {
     
     String userName;
     String password;
 
     Network() {}
-
     
     public boolean post(String message) {
         if (logIn(this.userName, this.password)) {

@@ -14,6 +14,7 @@ public class LinkedIn extends Network{
         this.password = password;
     }
 
+    @Override
     public boolean logIn(String userName, String password) {
         System.out.println("\nChecking user's parameters");
         System.out.println("Name: " + this.userName);
@@ -26,6 +27,7 @@ public class LinkedIn extends Network{
         return true;
     }
 
+    @Override
     public boolean sendData(byte[] data) {
         boolean messagePosted = true;
         if (messagePosted) {
@@ -36,6 +38,7 @@ public class LinkedIn extends Network{
         }
     }
 
+    @Override
     public void logOut() {
         System.out.println("User: '" + userName + "' was logged out from LinkedIn");
     }
