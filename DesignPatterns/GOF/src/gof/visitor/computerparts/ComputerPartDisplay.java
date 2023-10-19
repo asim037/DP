@@ -34,6 +34,10 @@ public class ComputerPartDisplay implements ComputerPartVisitor {
         System.out.println("Display Monitor");
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    @Override
+    public void visit(Multimedia multimedia) {
+        System.out.println("Display Multimedia");
+    }
 
     
     

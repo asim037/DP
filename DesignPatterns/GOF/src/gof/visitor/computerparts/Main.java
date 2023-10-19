@@ -16,6 +16,10 @@ public class Main {
       computer.accept(new ComputerPartDisplay());
 //      ComputerPart keyboard = new Keyboard();
 //      keyboard.accept(new ComputerPartDisplay());
-   }
+      ComputerPartMaintainer maintainer = new ComputerPartMaintainer("Mouse");
+        computer.accept(maintainer);
+    }
+       
+    
     
 }
