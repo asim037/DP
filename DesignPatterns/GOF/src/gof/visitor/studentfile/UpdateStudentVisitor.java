@@ -25,8 +25,8 @@ public class UpdateStudentVisitor implements StudentVisitor{
 
     @Override
     public void visit(Graduate student) {
-        student.name = nameToUpdate;
-        student.age = ageToUpdate;
+//        student.name = nameToUpdate;
+//        student.age = ageToUpdate;
 //        student.name = nameToUpdate;
 //        student.age = ageToUpdate;
     }
