@@ -12,7 +12,11 @@ package gof.abstractfactory.shapesbase;
 public class Main {
     public static void main(String[] args) {
       //get shape factory
+
       AbstractFactory shapeFactory = FactoryProducer.getFactory(false, false);
+
+
+
       //get an object of Shape Rectangle
       Shapes shape1 = shapeFactory.getShape("RECTANGLE");
       //call draw method of Shape Rectangle
@@ -25,7 +29,10 @@ public class Main {
       //call draw method of Shape Square
       shape3.draw();
       //get shape factory
+
       AbstractFactory shapeFactory1 = FactoryProducer.getFactory(true, true);
+
+
       //get an object of Shape Rectangle
       Shapes shape4 = shapeFactory1.getShape("RECTANGLE");
       //call draw method of Shape Rectangle
@@ -34,9 +41,11 @@ public class Main {
       Shapes shape5 = shapeFactory1.getShape("SQUARE");
       //call draw method of Shape Square
       shape5.draw();
+
       Shapes shape6 = shapeFactory1.getShape("TRIANGLE");
       //call draw method of Shape Square
       shape6.draw();
+
       
    }
     

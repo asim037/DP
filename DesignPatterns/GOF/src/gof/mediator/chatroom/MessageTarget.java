@@ -11,12 +11,6 @@
 package gof.mediator.chatroom;
 
 /**
- *
-<<<<<<< HEAD
- * @author FA20-BSE-037
-=======
- * @author LAPTOP HOUSE
->>>>>>> 19654b74c37957d60db799a996325ab19a91a921
  */
 public interface MessageTarget {
     String getName();

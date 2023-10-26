@@ -13,11 +13,14 @@ public class DoubleBordersFactory extends AbstractFactory{
     @Override
    public Shapes getShape(String shapeType){    
       if(shapeType.equalsIgnoreCase("RECTANGLE")){
+
          return new DBRectangle();         
       }else if(shapeType.equalsIgnoreCase("SQUARE")){
          return new DBSquare();
       }else if(shapeType.equalsIgnoreCase("TRIANGLE")) {
           return new DBTriangle();
+
+      
       }
           
       return null;
