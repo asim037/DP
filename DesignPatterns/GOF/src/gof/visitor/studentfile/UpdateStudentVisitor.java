@@ -27,5 +27,10 @@ public class UpdateStudentVisitor implements StudentVisitor{
     public void visit(Graduate student) {
 //        student.name = nameToUpdate;
 //        student.age = ageToUpdate;
+<<<<<<< HEAD
+=======
+//        student.name = nameToUpdate;
+//        student.age = ageToUpdate;
+>>>>>>> 19654b74c37957d60db799a996325ab19a91a921
     }
 }
