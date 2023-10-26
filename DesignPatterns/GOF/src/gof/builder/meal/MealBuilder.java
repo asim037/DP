@@ -24,4 +24,17 @@ public class MealBuilder {
       meal.addItem(new Pepsi());
       return meal;
    }
+   public Meal prepareDietMeal() {
+        Meal meal = new Meal();
+        meal.addItem(new VegBurger());
+        meal.addItem(new DietCoke());
+        return meal;
+    }
+   public Meal prepareTeaMeal() {
+        Meal meal = new Meal();
+        meal.addItem(new Tea());
+        return meal;
+    }
+
+
 }
