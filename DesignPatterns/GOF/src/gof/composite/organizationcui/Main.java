@@ -26,7 +26,7 @@ public class Main {
 
         // Generating Organogram
         String organogram = employeeController.generateOrganogram();
-        System.out.println(organogram);
+        System.out.println("Organogram: \n"+organogram);
 
         // Giving bonuses to employees
         director.giveBonus();
