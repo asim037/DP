@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SoftwarePrinciples">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DesignPatterns/WithoutPrinciple/dist/SoftwarePrinciples.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

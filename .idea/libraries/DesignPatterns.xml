@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="DesignPatterns">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DesignPatterns/GOF/dist/DesignPatterns.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
